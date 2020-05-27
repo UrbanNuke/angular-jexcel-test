@@ -13,7 +13,7 @@ export class JexcelTableComponent implements AfterViewInit {
 	@ViewChild('spreadsheet') spreadsheet: ElementRef;
 
 	/** Путь до файла */
-	urlFile = 'jexcel-example.xlsx';
+	urlFile = './jexcel-example.xlsx';
 
 	ngAfterViewInit() {
 		// @ts-ignore
