@@ -9,10 +9,8 @@ import * as jexcel from 'jexcel';
 })
 export class JexcelTableComponent implements AfterViewInit {
 
- 	/** Ссылка на таблицу в шаблоне */
 	@ViewChild('spreadsheet') spreadsheet: ElementRef;
 
-	/** Путь до файла */
 	urlFile = './jexcel-example.xlsx';
 
 	ngAfterViewInit() {
